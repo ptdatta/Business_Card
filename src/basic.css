@@ -1,0 +1,45 @@
+.details{
+    text-align: center;
+    margin-top: 21px;
+   }
+   .details> h2{
+     font-size: 25px;
+     font-weight: 700;
+   }
+   .details> h4{
+     font-size: 13px;
+     font-weight: 400;
+     color: #F3BF99;
+   }
+   .details>p{
+     font-size: 10px;
+     font-weight: 400;
+     margin: 5px;
+   }
+   .button{
+     width: 100%;
+     /* background-color: red; */
+     display: flex;
+     justify-content: center;
+   }
+   button{
+     position: relative;
+     top: 10spx;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 9px 13px 9px 11px;
+     gap: 8px;
+     width: 92px;
+     height: 25px;
+     margin: 8px;
+   }
+   .button> #one{
+     border-radius: 4.8px;
+   }
+   .button> #two{
+     background-color: #5093E2;
+     color: white;
+   }
+   
